@@ -1,0 +1,12 @@
+{
+    "bindings": [
+        {
+            "name": "queueMessageItem",
+            "type": "queueTrigger",
+            "direction": "in",
+            "queueName": "cyte-hazrate-batch-run",
+            "connection": "QUEUE_STORAGE"
+        }
+    ],
+    "scriptFile": "../dist/hazard-rate-calc/index.js"
+}
